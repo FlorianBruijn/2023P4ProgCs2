@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Class1
+    class Skill
     {
+        internal int damage;
+        internal int energyCost;
+        internal string name;
     }
 }
