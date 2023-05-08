@@ -11,3 +11,5 @@ les 02 : class Skill aangemaakt
 les 03 : functie TakeDamage en DepleteEnergy aangemaakt en getest
 
 les 04 : functie UseOn aangemaakt en getest
+
+les 05 : skills list aangemaakt

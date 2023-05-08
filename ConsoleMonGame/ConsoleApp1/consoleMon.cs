@@ -20,5 +20,8 @@ namespace ConsoleApp1
         {
             this.energy -= energy;
         }
+
+        private List<Skill> skills;
+
     }
 }
