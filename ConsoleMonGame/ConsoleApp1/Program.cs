@@ -11,6 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             TestSkillFunctions();
+            TestConsoleMonFunctions();
             Console.ReadLine();
         }
         static void TestConsoleMonFunctions()
