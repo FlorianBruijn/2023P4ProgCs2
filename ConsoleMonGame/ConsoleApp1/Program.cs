@@ -10,8 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestSkillFunctions();
             TestConsoleMonFunctions();
+            TestSkillFunctions();
             Console.ReadLine();
         }
         static void TestConsoleMonFunctions()
@@ -37,9 +37,10 @@ namespace ConsoleApp1
             };
             skill.UseOn(targetMon, casterMon);
 
-            Console.WriteLine(targetMon.health == -100);
+            Console.WriteLine(targetMon.health == -150);
 
             Console.WriteLine(casterMon.energy == -20);
+
         }
 
     }
