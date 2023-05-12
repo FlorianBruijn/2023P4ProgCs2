@@ -13,3 +13,5 @@ les 03 : functie TakeDamage en DepleteEnergy aangemaakt en getest
 les 04 : functie UseOn aangemaakt en getest
 
 les 05 : skills list aangemaakt
+
+les 06 : opdracht lists gemaakt
