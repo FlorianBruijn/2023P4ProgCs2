@@ -13,6 +13,8 @@ namespace ConsoleApp1
         internal string name;
         internal Element weakness;
 
+        private List<Skill> skills;
+
         internal void TakeDamage (int damage)
         {
             health -= damage;
@@ -21,8 +23,5 @@ namespace ConsoleApp1
         {
             this.energy -= energy;
         }
-
-        private List<Skill> skills;
-
     }
 }

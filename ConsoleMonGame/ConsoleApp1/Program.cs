@@ -12,6 +12,7 @@ namespace ConsoleApp1
         {
             TestConsoleMonFunctions();
             TestSkillFunctions();
+            TestFactoryFunctions();
             Console.ReadLine();
         }
         static void TestConsoleMonFunctions()
@@ -40,7 +41,12 @@ namespace ConsoleApp1
             Console.WriteLine(targetMon.health == -150);
 
             Console.WriteLine(casterMon.energy == -20);
-
+        }
+        static void TestFactoryFunctions()
+        {
+            Console.WriteLine("TestFactoryFunctions");
+            ConsoleMonFactory factory = new ConsoleMonFactory();
+            factory.Load("monsterdata.txt");
         }
 
     }
