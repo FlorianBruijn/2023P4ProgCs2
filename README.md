@@ -23,3 +23,5 @@ les 08 : enum Element aangemaakt en toegepast in skill
 les 09,10,11 : opdrachten gemaakt
 
 les 12 : load function aangepast
+
+les 13 : constructors gemaakt

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace ConsoleMonGame
@@ -24,7 +25,7 @@ namespace ConsoleMonGame
             }
         }
         internal void LoadJson(string datafile)
-        {
+        { 
             string json = File.ReadAllText(datafile);
             List<ConsoleMon> templates = JsonSerializer.Deserialize<List<ConsoleMon>>(json);
             Console.WriteLine(templates[0].name);
