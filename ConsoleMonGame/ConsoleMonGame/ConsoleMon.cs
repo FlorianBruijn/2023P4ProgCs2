@@ -11,9 +11,9 @@ namespace ConsoleMonGame
         public int health { get;set; }
         public int energy { get; set; }
         public string name { get; set; }
-        internal Element weakness;
+        public Element weakness { get; set; } 
 
-        private List<Skill> skills;
+        public List<Skill> skills { get; set; }
 
         public ConsoleMon() 
         { 

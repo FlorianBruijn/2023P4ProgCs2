@@ -27,3 +27,5 @@ les 12 : load function aangepast
 les 13 : constructors consolemon gemaakt
 
 les 14 : constructors skill gemaakt
+
+les 15 : copy consolemon gemaakt
